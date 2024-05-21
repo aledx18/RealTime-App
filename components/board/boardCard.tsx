@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link'
 import Overlay from './overlay'
 import { formatDistanceToNow } from 'date-fns'

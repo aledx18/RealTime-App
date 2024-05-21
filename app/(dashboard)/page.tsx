@@ -10,8 +10,9 @@ export default function Home() {
     <div className='flex flex-col items-center'>
       <h1>Boards</h1>
       <div className=''>
+        <EmptyBoard />
         {!organization ? (
-          <EmptyBoard />
+          'create an organization to see boards'
         ) : (
           <ListBoards orgId={organization.id} />
         )}
